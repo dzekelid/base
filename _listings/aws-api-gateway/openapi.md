@@ -18,7 +18,7 @@ paths:
       description: Gets the BasePathMappings resource representing the collection
         of base path mappings for the specified custom domain name.
       operationId: domainnameBasepathmappings
-      x-api-path-slug: domainnamesabccombasepathmappings-get
+      x-api-path-slug: domainnamesa-b-c-combasepathmappings-get
       parameters:
       - in: header
         name: Authorization

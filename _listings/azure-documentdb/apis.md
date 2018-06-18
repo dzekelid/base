@@ -6,10 +6,10 @@ description: Azure DocumentDB is a fully-managed NoSQL document database service
   reliable performance, and rapid development.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Base
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,9 +22,9 @@ apis:
   tags: Database, Accounts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-get-openapi.md
 - name: Azure DocumentDB API Database Accounts Patch
   x-api-slug: azure-documentdb-api
   description: Patches the properties of an existing Azure DocumentDB database account.
@@ -34,7 +34,7 @@ apis:
   tags: Database, Accounts, Patch
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-patch-openapi.md
 - name: Azure DocumentDB API Database Accounts Create Or Update
   x-api-slug: azure-documentdb-api
   description: Creates or updates an Azure DocumentDB database account.
@@ -44,7 +44,7 @@ apis:
   tags: Database, Accounts, Or
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-put-openapi.md
 - name: Azure DocumentDB API Database Accounts Delete
   x-api-slug: azure-documentdb-api
   description: Deletes an existing Azure DocumentDB database account.
@@ -54,9 +54,9 @@ apis:
   tags: Database, Accounts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-delete-openapi.md
 - name: Azure DocumentDB API Database Accounts Failover Priority Change
   x-api-slug: azure-documentdb-api
   description: Changes the failover priority for the Azure DocumentDB database account.
@@ -69,7 +69,7 @@ apis:
   tags: Database, Accounts, Failover, Priority, Change
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountnamefailoverprioritychange-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamefailoverprioritychange-post-openapi.md
 - name: Azure DocumentDB API Database Accounts List
   x-api-slug: azure-documentdb-api
   description: Lists all the Azure DocumentDB database accounts available under the
@@ -80,9 +80,9 @@ apis:
   tags: Database, Accounts, List
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidprovidersmicrosoftdocumentdbdatabaseaccounts-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidprovidersmicrosoft-documentdbdatabaseaccounts-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidprovidersmicrosoftdocumentdbdatabaseaccounts-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidprovidersmicrosoft-documentdbdatabaseaccounts-get-openapi.md
 - name: Azure DocumentDB API Database Accounts List By Resource Group
   x-api-slug: azure-documentdb-api
   description: Lists all the Azure DocumentDB database accounts available under the
@@ -93,9 +93,9 @@ apis:
   tags: Database, Accounts, ListResource, Group
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccounts-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccounts-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccounts-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccounts-get-openapi.md
 - name: Azure DocumentDB API Database Accounts List Keys
   x-api-slug: azure-documentdb-api
   description: Lists the access keys for the specified Azure DocumentDB database account.
@@ -105,9 +105,9 @@ apis:
   tags: Database, Accounts, List, Keys
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountnamelistkeys-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamelistkeys-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountnamelistkeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamelistkeys-post-openapi.md
 - name: Azure DocumentDB API Database Accounts List Connection Strings
   x-api-slug: azure-documentdb-api
   description: Lists the connection strings for the specified Azure DocumentDB database
@@ -118,9 +118,9 @@ apis:
   tags: Database, Accounts, List, Connection, Strings
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountnamelistconnectionstrings-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamelistconnectionstrings-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountnamelistconnectionstrings-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamelistconnectionstrings-post-openapi.md
 - name: Azure DocumentDB API Database Accounts List Read Only Keys
   x-api-slug: azure-documentdb-api
   description: Lists the read-only access keys for the specified Azure DocumentDB
@@ -131,9 +131,9 @@ apis:
   tags: Database, Accounts, List, Read, Only, Keys
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountnamereadonlykeys-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamereadonlykeys-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountnamereadonlykeys-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamereadonlykeys-get-openapi.md
 - name: Azure DocumentDB API Database Accounts Regenerate Key
   x-api-slug: azure-documentdb-api
   description: Regenerates an access key for the specified Azure DocumentDB database
@@ -144,7 +144,7 @@ apis:
   tags: Database, Accounts, Regenerate, Key
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountnameregeneratekey-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnameregeneratekey-post-openapi.md
 - name: Azure DocumentDB API Database Accounts Check Name Exists
   x-api-slug: azure-documentdb-api
   description: Checks that the Azure DocumentDB account name already exists. A valid
@@ -156,9 +156,9 @@ apis:
   tags: Database, Accounts, Checks, Name, Exists
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/providersmicrosoftdocumentdbdatabaseaccountnamesaccountname-head-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/providersmicrosoft-documentdbdatabaseaccountnamesaccountname-head-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/providersmicrosoftdocumentdbdatabaseaccountnamesaccountname-head-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/azure-documentdb/providersmicrosoft-documentdbdatabaseaccountnamesaccountname-head-openapi.md
 - name: Azure DocumentDB API
   x-api-slug: azure-documentdb-api
   description: Azure DocumentDB is a fully-managed NoSQL document database service

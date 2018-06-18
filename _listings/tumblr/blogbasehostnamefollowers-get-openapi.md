@@ -22,6 +22,10 @@ paths:
         the title, number of posts, and other high-level data.
       operationId: blog.base_hostname.info.get
       x-api-path-slug: blogbasehostnameinfo-get
+      parameters:
+      - in: path
+        name: base-hostname
+        description: The unique hostname of the blog
       responses:
         200:
           description: OK
@@ -36,6 +40,14 @@ paths:
       description: Retrieves a blog's avatar in one of 9 different sizes.
       operationId: blog.base_hostname.avatar.size.get
       x-api-path-slug: blogbasehostnameavatarsize-get
+      parameters:
+      - in: path
+        name: base-hostname
+        description: The unique hostname of the blog
+      - in: path
+        name: size
+        description: The size of the avatar (square, one value for both length and
+          width)
       responses:
         200:
           description: OK
@@ -52,9 +64,12 @@ paths:
       operationId: blog.base_hostname.followers.get
       x-api-path-slug: blogbasehostnamefollowers-get
       parameters:
+      - in: path
+        name: base-hostname
+        description: The unique hostname of the blog
       - in: query
         name: limit
-        description: "The number of results to return: 1\u201320, inclusive"
+        description: 'The number of results to return: 120, inclusive'
       - in: query
         name: offset
         description: Result to start at
@@ -67,16 +82,16 @@ paths:
       - Hostname
       - Followers
 x-streamrank:
-  polling_total_time_average: 0
-  polling_size_download_average: 0
-  streaming_total_time_average: 0
-  streaming_size_download_average: 0
-  change_yes: 0
-  change_no: 0
-  time_percentage: 0
-  size_percentage: 0
-  change_percentage: 0
-  last_run: ""
-  days_run: 0
-  minute_run: 0
+  polling_total_time_average: "0"
+  polling_size_download_average: "0"
+  streaming_total_time_average: "0"
+  streaming_size_download_average: "0"
+  change_yes: "0"
+  change_no: "0"
+  time_percentage: "0"
+  size_percentage: "0"
+  change_percentage: "200"
+  last_run: ~
+  days_run: "0"
+  minute_run: "0"
 ---

@@ -4,7 +4,7 @@ x-collection-name: Xignite
 x-complete: 1
 info:
   title: Xignite Global Real Time Futures
-  description: this-web-service-provides-global-realtime-future-and-option-quotes-for-us-and-international-future-contracts
+  description: this-web-service-provides-global-realtime-future-and-option-quotes-for-u-s--and-international-future-contracts-
   version: 1.0.0
 host: globalrealtimefutures.xignite.com
 basePath: xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures
@@ -16,11 +16,11 @@ consumes:
 - application/json
 paths:
   /ListBaseFutures:
-    post:
+    get:
       summary: List Base Futures
       description: Returns a list of base future symbols
       operationId: ListBaseFutures
-      x-api-path-slug: listbasefutures-post
+      x-api-path-slug: listbasefutures-get
       parameters:
       - in: body
         name: body
@@ -30,6 +30,7 @@ paths:
         200:
           description: OK
       tags:
+      - Market Data
       - List
       - Base
       - Futures

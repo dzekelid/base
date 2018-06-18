@@ -22,6 +22,10 @@ paths:
         the title, number of posts, and other high-level data.
       operationId: blog.base_hostname.info.get
       x-api-path-slug: blogbasehostnameinfo-get
+      parameters:
+      - in: path
+        name: base-hostname
+        description: The unique hostname of the blog
       responses:
         200:
           description: OK
@@ -36,6 +40,14 @@ paths:
       description: Retrieves a blog's avatar in one of 9 different sizes.
       operationId: blog.base_hostname.avatar.size.get
       x-api-path-slug: blogbasehostnameavatarsize-get
+      parameters:
+      - in: path
+        name: base-hostname
+        description: The unique hostname of the blog
+      - in: path
+        name: size
+        description: The size of the avatar (square, one value for both length and
+          width)
       responses:
         200:
           description: OK
@@ -52,9 +64,12 @@ paths:
       operationId: blog.base_hostname.followers.get
       x-api-path-slug: blogbasehostnamefollowers-get
       parameters:
+      - in: path
+        name: base-hostname
+        description: The unique hostname of the blog
       - in: query
         name: limit
-        description: "The number of results to return: 1\u201320, inclusive"
+        description: 'The number of results to return: 120, inclusive'
       - in: query
         name: offset
         description: Result to start at
@@ -73,6 +88,9 @@ paths:
       operationId: blog.base_hostname.posts.type.get
       x-api-path-slug: blogbasehostnamepoststype-get
       parameters:
+      - in: path
+        name: base-hostname
+        description: The unique hostname of the blog
       - in: query
         name: format
         description: Specifies the post format to return, other than HTML
@@ -81,7 +99,7 @@ paths:
         description: A specific post ID
       - in: query
         name: limit
-        description: "The number of posts to return: 1\u201320, inclusive"
+        description: 'The number of posts to return: 120, inclusive'
       - in: query
         name: notes_info
         description: Indicates whether to return notes information (specify true or
@@ -96,6 +114,9 @@ paths:
       - in: query
         name: tag
         description: Limits the response to posts with the specified tag
+      - in: path
+        name: type
+        description: The type of post to return
       responses:
         200:
           description: OK
@@ -111,6 +132,10 @@ paths:
       description: Retrieves queued posts.
       operationId: blog.base_hostname.posts.queue.get
       x-api-path-slug: blogbasehostnamepostsqueue-get
+      parameters:
+      - in: path
+        name: base-hostname
+        description: The unique hostname of the blog
       responses:
         200:
           description: OK
@@ -126,6 +151,10 @@ paths:
       description: Retrieves draft posts.
       operationId: blog.base_hostname.posts.draft.get
       x-api-path-slug: blogbasehostnamepostsdraft-get
+      parameters:
+      - in: path
+        name: base-hostname
+        description: The unique hostname of the blog
       responses:
         200:
           description: OK

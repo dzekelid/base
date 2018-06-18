@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "70"
 tags: Base
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,9 +22,9 @@ apis:
   tags: Repos, Owner, Repo, Compare, Base, ..., Head
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/github/reposownerrepocomparebaseidheadid-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/github/reposownerrepocomparebaseid---headid-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/github/reposownerrepocomparebaseidheadid-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/github/reposownerrepocomparebaseid---headid-get-openapi.md
 - name: Github
   x-api-slug: github
   description: With a community of more than 10 million people, developers can discover,
@@ -39,7 +39,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/github/openapi.md
 x-common:
-- type: x-net-library
+- type: x--net-library
   url: https://github.com/octokit/octokit.net
 - type: x-base
   url: https://api.github.com

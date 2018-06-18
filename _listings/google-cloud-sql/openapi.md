@@ -4,7 +4,7 @@ x-collection-name: Google Cloud SQL
 x-complete: 1
 info:
   title: Cloud SQL Administration
-  description: creates-and-configures-cloud-sql-instances-which-provide-fullymanaged-mysql-databases
+  description: creates-and-configures-cloud-sql-instances-which-provide-fullymanaged-mysql-databases-
   contact:
     name: Google
     url: https://google.com

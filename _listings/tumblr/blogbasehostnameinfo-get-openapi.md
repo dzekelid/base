@@ -23,6 +23,10 @@ paths:
         the title, number of posts, and other high-level data.
       operationId: blog.base_hostname.info.get
       x-api-path-slug: blogbasehostnameinfo-get
+      parameters:
+      - in: path
+        name: base-hostname
+        description: The unique hostname of the blog
       responses:
         200:
           description: OK

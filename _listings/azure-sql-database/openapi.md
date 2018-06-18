@@ -4,7 +4,7 @@ x-collection-name: Azure SQL Database
 x-complete: 1
 info:
   title: Azure SQL Database
-  description: provides-create-read-update-and-delete-functionality-for-azure-sql-database-resources-including-servers-databases-elastic-pools-recommendations-operations-and-usage-metrics
+  description: provides-create-read-update-and-delete-functionality-for-azure-sql-database-resources-including-servers-databases-elastic-pools-recommendations-operations-and-usage-metrics-
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -20,7 +20,7 @@ paths:
       summary: Databases List Restore Points
       description: Returns a list of database restore points.
       operationId: Databases_ListRestorePoints
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenamerestorepoints-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenamerestorepoints-get
       parameters:
       - in: path
         name: databaseName
@@ -38,7 +38,7 @@ paths:
       summary: Databases Get Threat Detection Policy
       description: Gets a database's threat detection policy.
       operationId: Databases_GetThreatDetectionPolicy
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenamesecurityalertpoliciesdefault-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenamesecurityalertpoliciesdefault-get
       parameters:
       - in: path
         name: databaseName
@@ -55,7 +55,7 @@ paths:
       summary: Databases Create Or Update Threat Detection Policy
       description: Creates or updates a database's threat detection policy.
       operationId: Databases_CreateOrUpdateThreatDetectionPolicy
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenamesecurityalertpoliciesdefault-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenamesecurityalertpoliciesdefault-put
       parameters:
       - in: path
         name: databaseName
@@ -78,7 +78,7 @@ paths:
       summary: Databases Import
       description: Imports a bacpac into a new database.
       operationId: Databases_Import
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameimport-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameimport-post
       parameters:
       - in: query
         name: No Name
@@ -98,7 +98,7 @@ paths:
       description: Creates an import operation that imports a bacpac into an existing
         database. The existing database must be empty.
       operationId: Databases_CreateImportOperation
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenameextensionsimport-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenameextensionsimport-put
       parameters:
       - in: path
         name: databaseName
@@ -120,7 +120,7 @@ paths:
       summary: Databases Export
       description: Exports a database to a bacpac.
       operationId: Databases_Export
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenameexport-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenameexport-post
       parameters:
       - in: path
         name: databaseName
@@ -142,7 +142,7 @@ paths:
       summary: Databases Delete Replication Link
       description: Deletes a database replication link. Cannot be done during failover.
       operationId: Databases_DeleteReplicationLink
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenamereplicationlinkslinkid-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenamereplicationlinkslinkid-delete
       parameters:
       - in: path
         name: databaseName
@@ -162,7 +162,7 @@ paths:
       summary: Databases Get Replication Link
       description: Gets a database replication link.
       operationId: Databases_GetReplicationLink
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenamereplicationlinkslinkid-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenamereplicationlinkslinkid-get
       parameters:
       - in: path
         name: databaseName
@@ -183,7 +183,7 @@ paths:
       description: Sets which replica database is primary by failing over from the
         current primary replica database.
       operationId: Databases_FailoverReplicationLink
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenamereplicationlinkslinkidfailover-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenamereplicationlinkslinkidfailover-post
       parameters:
       - in: path
         name: databaseName
@@ -205,7 +205,7 @@ paths:
       description: Sets which replica database is primary by failing over from the
         current primary replica database. This operation might result in data loss.
       operationId: Databases_FailoverReplicationLinkAllowDataLoss
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenamereplicationlinkslinkidforcefailoverallowdataloss-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenamereplicationlinkslinkidforcefailoverallowdataloss-post
       parameters:
       - in: path
         name: databaseName
@@ -226,7 +226,7 @@ paths:
       summary: Databases List Replication Links
       description: Lists a database's replication links.
       operationId: Databases_ListReplicationLinks
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenamereplicationlinks-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenamereplicationlinks-get
       parameters:
       - in: path
         name: databaseName
@@ -243,7 +243,7 @@ paths:
       summary: Databases Pause
       description: Pauses a data warehouse.
       operationId: Databases_Pause
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenamepause-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenamepause-post
       parameters:
       - in: path
         name: databaseName
@@ -260,7 +260,7 @@ paths:
       summary: Databases Resume
       description: Resumes a data warehouse.
       operationId: Databases_Resume
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenameresume-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenameresume-post
       parameters:
       - in: path
         name: databaseName
@@ -279,7 +279,7 @@ paths:
         is a required property in the request body, and it must be the same as the
         location of the SQL server.
       operationId: Databases_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasename-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasename-put
       parameters:
       - in: path
         name: databaseName
@@ -300,7 +300,7 @@ paths:
       summary: Databases Delete
       description: Deletes a database.
       operationId: Databases_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasename-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasename-delete
       parameters:
       - in: path
         name: databaseName
@@ -316,7 +316,7 @@ paths:
       summary: Databases Get
       description: Gets a database.
       operationId: Databases_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasename-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasename-get
       parameters:
       - in: path
         name: databaseName
@@ -333,7 +333,7 @@ paths:
       summary: Databases List By Server
       description: Returns a list of databases in a server.
       operationId: Databases_ListByServer
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabases-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabases-get
       parameters:
       - in: query
         name: $filter
@@ -351,7 +351,7 @@ paths:
       summary: Databases List Usages
       description: Returns database usages.
       operationId: Databases_ListUsages
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenameusages-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenameusages-get
       parameters:
       - in: path
         name: databaseName
@@ -368,7 +368,7 @@ paths:
       summary: Elastic Pools List Database Activity
       description: Returns activity on databases inside of an elastic pool.
       operationId: ElasticPools_ListDatabaseActivity
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpoolselasticpoolnameelasticpooldatabaseactivity-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpoolselasticpoolnameelasticpooldatabaseactivity-get
       parameters:
       - in: path
         name: elasticPoolName
@@ -385,7 +385,7 @@ paths:
       summary: Elastic Pools Get Database
       description: Gets a database inside of an elastic pool.
       operationId: ElasticPools_GetDatabase
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpoolselasticpoolnamedatabasesdatabasename-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpoolselasticpoolnamedatabasesdatabasename-get
       parameters:
       - in: path
         name: databaseName
@@ -405,7 +405,7 @@ paths:
       summary: Elastic Pools List Databases
       description: Returns a list of databases in an elastic pool.
       operationId: ElasticPools_ListDatabases
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernameelasticpoolselasticpoolnamedatabases-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernameelasticpoolselasticpoolnamedatabases-get
       parameters:
       - in: path
         name: elasticPoolName
@@ -422,7 +422,7 @@ paths:
       summary: Recommended Elastic Pools Get Databases
       description: Gets a database inside of a recommented elastic pool.
       operationId: RecommendedElasticPools_GetDatabases
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolnamedatabasesdatabasename-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolnamedatabasesdatabasename-get
       parameters:
       - in: path
         name: databaseName
@@ -442,7 +442,7 @@ paths:
       summary: Recommended Elastic Pools List Databases
       description: Returns a list of databases inside a recommented elastic pool.
       operationId: RecommendedElasticPools_ListDatabases
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolnamedatabases-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamerecommendedelasticpoolsrecommendedelasticpoolnamedatabases-get
       parameters:
       - in: query
         name: No Name
@@ -459,7 +459,7 @@ paths:
       summary: Databases Get Service Tier Advisor
       description: Gets a service tier advisor.
       operationId: Databases_GetServiceTierAdvisor
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenameservicetieradvisorsservicetieradvisorname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenameservicetieradvisorsservicetieradvisorname-get
       parameters:
       - in: path
         name: databaseName
@@ -479,7 +479,7 @@ paths:
       summary: Databases List Service Tier Advisors
       description: Returns service tier advisors for specified database.
       operationId: Databases_ListServiceTierAdvisors
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenameservicetieradvisors-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenameservicetieradvisors-get
       parameters:
       - in: path
         name: databaseName
@@ -496,7 +496,7 @@ paths:
       summary: Databases Create Or Update Transparent Data Encryption Configuration
       description: Creates or updates a database's transparent data encryption configuration.
       operationId: Databases_CreateOrUpdateTransparentDataEncryptionConfiguration
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenametransparentdataencryptioncurrent-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenametransparentdataencryptioncurrent-put
       parameters:
       - in: path
         name: databaseName
@@ -519,7 +519,7 @@ paths:
       summary: Databases Get Transparent Data Encryption Configuration
       description: Gets a database's transparent data encryption configuration.
       operationId: Databases_GetTransparentDataEncryptionConfiguration
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenametransparentdataencryptioncurrent-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenametransparentdataencryptioncurrent-get
       parameters:
       - in: path
         name: databaseName
@@ -537,7 +537,7 @@ paths:
       summary: Databases List Transparent Data Encryption Activity
       description: Returns a database's transparent data encryption operation result.
       operationId: Databases_ListTransparentDataEncryptionActivity
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftsqlserversservernamedatabasesdatabasenametransparentdataencryptioncurrentoperationresults-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-sqlserversservernamedatabasesdatabasenametransparentdataencryptioncurrentoperationresults-get
       parameters:
       - in: path
         name: databaseName

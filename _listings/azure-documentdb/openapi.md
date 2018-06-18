@@ -21,7 +21,7 @@ paths:
       description: Retrieves the properties of an existing Azure DocumentDB database
         account.
       operationId: DatabaseAccounts_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-get
       parameters:
       - in: query
         name: No Name
@@ -36,7 +36,7 @@ paths:
       description: Patches the properties of an existing Azure DocumentDB database
         account.
       operationId: DatabaseAccounts_Patch
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountname-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-patch
       parameters:
       - in: query
         name: No Name
@@ -56,7 +56,7 @@ paths:
       summary: Database Accounts Create Or Update
       description: Creates or updates an Azure DocumentDB database account.
       operationId: DatabaseAccounts_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-put
       parameters:
       - in: body
         name: createUpdateParameters
@@ -76,7 +76,7 @@ paths:
       summary: Database Accounts Delete
       description: Deletes an existing Azure DocumentDB database account.
       operationId: DatabaseAccounts_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountname-delete
       parameters:
       - in: query
         name: No Name
@@ -95,7 +95,7 @@ paths:
         values must be unique for each of the regions in which the database account
         exists.
       operationId: DatabaseAccounts_FailoverPriorityChange
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountnamefailoverprioritychange-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamefailoverprioritychange-post
       parameters:
       - in: body
         name: failoverParameters
@@ -119,7 +119,7 @@ paths:
       description: Lists all the Azure DocumentDB database accounts available under
         the subscription.
       operationId: DatabaseAccounts_List
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftdocumentdbdatabaseaccounts-get
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-documentdbdatabaseaccounts-get
       parameters:
       - in: query
         name: No Name
@@ -136,7 +136,7 @@ paths:
       description: Lists all the Azure DocumentDB database accounts available under
         the given resource group.
       operationId: DatabaseAccounts_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccounts-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccounts-get
       parameters:
       - in: query
         name: No Name
@@ -154,7 +154,7 @@ paths:
       description: Lists the access keys for the specified Azure DocumentDB database
         account.
       operationId: DatabaseAccounts_ListKeys
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountnamelistkeys-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamelistkeys-post
       parameters:
       - in: query
         name: No Name
@@ -172,7 +172,7 @@ paths:
       description: Lists the connection strings for the specified Azure DocumentDB
         database account.
       operationId: DatabaseAccounts_ListConnectionStrings
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountnamelistconnectionstrings-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamelistconnectionstrings-post
       parameters:
       - in: query
         name: No Name
@@ -191,7 +191,7 @@ paths:
       description: Lists the read-only access keys for the specified Azure DocumentDB
         database account.
       operationId: DatabaseAccounts_ListReadOnlyKeys
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountnamereadonlykeys-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamereadonlykeys-get
       parameters:
       - in: query
         name: No Name
@@ -211,7 +211,7 @@ paths:
       description: Regenerates an access key for the specified Azure DocumentDB database
         account.
       operationId: DatabaseAccounts_RegenerateKey
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdocumentdbdatabaseaccountsaccountnameregeneratekey-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnameregeneratekey-post
       parameters:
       - in: body
         name: keyToRegenerate
@@ -235,7 +235,7 @@ paths:
         valid account name may contain only lowercase letters, numbers, and the '-'
         character, and must be between 3 and 50 characters.
       operationId: DatabaseAccounts_CheckNameExists
-      x-api-path-slug: providersmicrosoftdocumentdbdatabaseaccountnamesaccountname-head
+      x-api-path-slug: providersmicrosoft-documentdbdatabaseaccountnamesaccountname-head
       parameters:
       - in: query
         name: No Name

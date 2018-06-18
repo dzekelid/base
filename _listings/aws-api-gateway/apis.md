@@ -14,10 +14,10 @@ description: Amazon API Gateway is a fully managed service that makes it easy fo
   transferred out.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Base
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-api-gateway/apis.md
 specificationVersion: "0.14"
 apis:
@@ -31,9 +31,9 @@ apis:
   tags: Domain, Base, Path
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-api-gateway/domainnamesabccombasepathmappings-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-api-gateway/domainnamesa-b-c-combasepathmappings-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-api-gateway/domainnamesabccombasepathmappings-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-api-gateway/domainnamesa-b-c-combasepathmappings-get-openapi.md
 - name: AWS API Gateway API
   x-api-slug: aws-api-gateway-api
   description: Amazon API Gateway is a fully managed service that makes it easy for

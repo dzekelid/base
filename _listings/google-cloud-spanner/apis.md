@@ -14,10 +14,10 @@ description: 'Cloud Spanner is the first and only relational database service th
   for years.'
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spanner-global-scale-consistency_2x.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Base
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/google-cloud-spanner/apis.md
 specificationVersion: "0.14"
 apis:

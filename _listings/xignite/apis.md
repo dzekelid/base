@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Base
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
@@ -21,7 +21,7 @@ apis:
   tags: List, Base, Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/xignite/listbasefutures-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/xignite/listbasefutures-get-openapi.md
 - name: Xignite Global Futures
   x-api-slug: xignite-global-futures
   description: Financial market data on-demand. Xignite financial Web services help
@@ -39,10 +39,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals//GetBaseMetalPrice
-  tags: Base, Metal, Price
+  tags: Market Data,Base, Metal, Price
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/xignite/getbasemetalprice-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/xignite/getbasemetalprice-get-openapi.md
 - name: Xignite Global Metals
   x-api-slug: xignite-global-metals
   description: Financial market data on-demand. Xignite financial Web services help
@@ -60,10 +60,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures//ListBaseFutures
-  tags: List, Base, Futures
+  tags: Market Data,List, Base, Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/xignite/listbasefutures-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/xignite/listbasefutures-get-openapi.md
 - name: Xignite Global Real Time Futures
   x-api-slug: xignite-global-real-time-futures
   description: Financial market data on-demand. Xignite financial Web services help
@@ -76,7 +76,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/xignite/openapi.md
 x-common:
-- type: x-net-sdk
+- type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
 - type: x-base
   url: http://globalmaster.xignite.com
@@ -136,6 +136,10 @@ x-common:
   url: https://resources.xignite.com/webinars
 - type: x-website
   url: http://www.xignite.com
+- type: x-website
+  url: http://xignite.com
+- type: x-website
+  url: http://xignite.com/
 - type: x-white-papers
   url: http://www.xignite.com/market-data/resources/white-papers/
 include: []
