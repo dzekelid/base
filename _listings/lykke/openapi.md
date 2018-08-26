@@ -97,22 +97,4 @@ paths:
           description: OK
       tags:
       - Lastbaseassets
-  /api/Market/converter/tobase:
-    post:
-      summary: Add API Market Converter Tobase
-      description: Add api market converter tobase.
-      operationId: ApiMarketConverterTobasePost
-      x-api-path-slug: apimarketconvertertobase-post
-      parameters:
-      - in: body
-        name: request
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Market
-      - Converter
-      - Tobase
 ---

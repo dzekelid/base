@@ -69,7 +69,7 @@ paths:
         description: The unique hostname of the blog
       - in: query
         name: limit
-        description: 'The number of results to return: 120, inclusive'
+        description: 'The number of results to return: 1???20, inclusive'
       - in: query
         name: offset
         description: Result to start at

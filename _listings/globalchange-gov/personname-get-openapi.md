@@ -37,6 +37,26 @@ paths:
       - Based
       - "On"
       - Name
+  /person/{orcid}:
+    get:
+      summary: Redirect to a person based on an ORCID.
+      description: Given an ORCID, if there is a match, redirect to the persons URI.
+      operationId: given-an-orcid-if-there-is-a-match-redirect-to-the-persons-uri
+      x-api-path-slug: personorcid-get
+      parameters:
+      - in: path
+        name: orcid
+        description: orcid description
+      responses:
+        200:
+          description: OK
+      tags:
+      - Redirect
+      - To
+      - Person
+      - Based
+      - "On"
+      - ORCID
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

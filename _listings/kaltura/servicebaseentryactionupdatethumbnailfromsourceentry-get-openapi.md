@@ -2537,6 +2537,72 @@ paths:
       - Baseentry
       - Action
       - UpdateThumbnailFromSourceEntry
+  /service/baseentry/action/updateThumbnailFromUrl:
+    get:
+      summary: Get Service Baseentry Action Updatethumbnailfromurl
+      description: Update entry thumbnail using url.
+      operationId: baseEntry.updateThumbnailFromUrl
+      x-api-path-slug: servicebaseentryactionupdatethumbnailfromurl-get
+      parameters:
+      - in: query
+        name: entryId
+        description: Media entry id
+      - in: query
+        name: No Name
+      - in: query
+        name: url
+        description: file url
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Baseentry
+      - Action
+      - UpdateThumbnailFromUrl
+  /service/baseentry/action/updateThumbnailJpeg:
+    post:
+      summary: Post Service Baseentry Action Updatethumbnailjpeg
+      description: Update entry thumbnail using a raw jpeg file.
+      operationId: baseEntry.updateThumbnailJpeg
+      x-api-path-slug: servicebaseentryactionupdatethumbnailjpeg-post
+      parameters:
+      - in: query
+        name: entryId
+        description: Media entry id
+      - in: formData
+        name: fileData
+        description: Jpeg file data
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Baseentry
+      - Action
+      - UpdateThumbnailJpeg
+  /service/baseentry/action/upload:
+    post:
+      summary: Post Service Baseentry Action Upload
+      description: Upload a file to Kaltura, that can be used to create an entry.
+      operationId: baseEntry.upload
+      x-api-path-slug: servicebaseentryactionupload-post
+      parameters:
+      - in: formData
+        name: fileData
+        description: The file data
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Baseentry
+      - Action
+      - Upload
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

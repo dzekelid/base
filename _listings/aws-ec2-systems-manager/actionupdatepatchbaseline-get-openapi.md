@@ -69,6 +69,122 @@ paths:
           description: OK
       tags:
       - Baseline
+  /?Action=GetDefaultPatchBaseline:
+    get:
+      summary: Get Default Patch Baseline
+      description: Retrieves the default patch baseline.
+      operationId: getDefaultPatchBaseline
+      x-api-path-slug: actiongetdefaultpatchbaseline-get
+      parameters:
+      - in: query
+        name: BaselineId
+        description: The ID of the default patch baseline
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Default
+      - Baseline
+  /?Action=GetPatchBaseline:
+    get:
+      summary: Get Patch Baseline
+      description: Retrieves information about a patch baseline.
+      operationId: getPatchBaseline
+      x-api-path-slug: actiongetpatchbaseline-get
+      parameters:
+      - in: query
+        name: BaselineId
+        description: The ID of the patch baseline to retrieve
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Baseline
+  /?Action=RegisterDefaultPatchBaseline:
+    get:
+      summary: Register Default Patch Baseline
+      description: Defines the default patch baseline.
+      operationId: registerDefaultPatchBaseline
+      x-api-path-slug: actionregisterdefaultpatchbaseline-get
+      parameters:
+      - in: query
+        name: BaselineId
+        description: The ID of the patch baseline that should be the default patch
+          baseline
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Register
+      - Default
+      - Baseline
+  /?Action=UpdatePatchBaseline:
+    get:
+      summary: Update Patch Baseline
+      description: Modifies an existing patch baseline.
+      operationId: updatePatchBaseline
+      x-api-path-slug: actionupdatepatchbaseline-get
+      parameters:
+      - in: query
+        name: ApprovalRules
+        description: A set of rules used to include patches in the baseline
+        type: string
+      - in: query
+        name: ApprovedPatches
+        description: A list of explicitly approved patches for the baseline
+        type: string
+      - in: query
+        name: BaselineId
+        description: The ID of the patch baseline to update
+        type: string
+      - in: query
+        name: Description
+        description: A description of the patch baseline
+        type: string
+      - in: query
+        name: GlobalFilters
+        description: A set of global filters used to exclude patches from the baseline
+        type: string
+      - in: query
+        name: Name
+        description: The name of the patch baseline
+        type: string
+      - in: query
+        name: RejectedPatches
+        description: A list of explicitly rejected patches for the baseline
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Baseline
+  /?Action=DescribePatchBaselines:
+    get:
+      summary: Describe Patch Baselines
+      description: Lists the patch baselines in your AWS account.
+      operationId: describePatchBaselines
+      x-api-path-slug: actiondescribepatchbaselines-get
+      parameters:
+      - in: query
+        name: Filters
+        description: 'Each element in the array is a structure containing:'
+        type: string
+      - in: query
+        name: MaxResults
+        description: The maximum number of patch baselines to return (per page)
+        type: string
+      - in: query
+        name: NextToken
+        description: The token for the next set of items to return
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Baselines
   /?Action=DeregisterPatchBaselineForPatchGroup:
     get:
       summary: Deregister Patch Baseline For Patch Group
@@ -118,63 +234,6 @@ paths:
       tags:
       - Effective
       - PatchesBaseline
-  /?Action=DescribePatchBaselines:
-    get:
-      summary: Describe Patch Baselines
-      description: Lists the patch baselines in your AWS account.
-      operationId: describePatchBaselines
-      x-api-path-slug: actiondescribepatchbaselines-get
-      parameters:
-      - in: query
-        name: Filters
-        description: 'Each element in the array is a structure containing:'
-        type: string
-      - in: query
-        name: MaxResults
-        description: The maximum number of patch baselines to return (per page)
-        type: string
-      - in: query
-        name: NextToken
-        description: The token for the next set of items to return
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Baselines
-  /?Action=GetDefaultPatchBaseline:
-    get:
-      summary: Get Default Patch Baseline
-      description: Retrieves the default patch baseline.
-      operationId: getDefaultPatchBaseline
-      x-api-path-slug: actiongetdefaultpatchbaseline-get
-      parameters:
-      - in: query
-        name: BaselineId
-        description: The ID of the default patch baseline
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Default
-      - Baseline
-  /?Action=GetPatchBaseline:
-    get:
-      summary: Get Patch Baseline
-      description: Retrieves information about a patch baseline.
-      operationId: getPatchBaseline
-      x-api-path-slug: actiongetpatchbaseline-get
-      parameters:
-      - in: query
-        name: BaselineId
-        description: The ID of the patch baseline to retrieve
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Baseline
   /?Action=GetPatchBaselineForPatchGroup:
     get:
       summary: Get Patch Baseline For Patch Group
@@ -192,25 +251,6 @@ paths:
           description: OK
       tags:
       - BaselineGroup
-  /?Action=RegisterDefaultPatchBaseline:
-    get:
-      summary: Register Default Patch Baseline
-      description: Defines the default patch baseline.
-      operationId: registerDefaultPatchBaseline
-      x-api-path-slug: actionregisterdefaultpatchbaseline-get
-      parameters:
-      - in: query
-        name: BaselineId
-        description: The ID of the patch baseline that should be the default patch
-          baseline
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Register
-      - Default
-      - Baseline
   /?Action=RegisterPatchBaselineForPatchGroup:
     get:
       summary: Register Patch Baseline For Patch Group
@@ -233,46 +273,6 @@ paths:
       tags:
       - Register
       - BaselineGroup
-  /?Action=UpdatePatchBaseline:
-    get:
-      summary: Update Patch Baseline
-      description: Modifies an existing patch baseline.
-      operationId: updatePatchBaseline
-      x-api-path-slug: actionupdatepatchbaseline-get
-      parameters:
-      - in: query
-        name: ApprovalRules
-        description: A set of rules used to include patches in the baseline
-        type: string
-      - in: query
-        name: ApprovedPatches
-        description: A list of explicitly approved patches for the baseline
-        type: string
-      - in: query
-        name: BaselineId
-        description: The ID of the patch baseline to update
-        type: string
-      - in: query
-        name: Description
-        description: A description of the patch baseline
-        type: string
-      - in: query
-        name: GlobalFilters
-        description: A set of global filters used to exclude patches from the baseline
-        type: string
-      - in: query
-        name: Name
-        description: The name of the patch baseline
-        type: string
-      - in: query
-        name: RejectedPatches
-        description: A list of explicitly rejected patches for the baseline
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Baseline
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

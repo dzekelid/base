@@ -69,7 +69,7 @@ paths:
         description: The unique hostname of the blog
       - in: query
         name: limit
-        description: 'The number of results to return: 120, inclusive'
+        description: 'The number of results to return: 1???20, inclusive'
       - in: query
         name: offset
         description: Result to start at
@@ -99,7 +99,7 @@ paths:
         description: A specific post ID
       - in: query
         name: limit
-        description: 'The number of posts to return: 120, inclusive'
+        description: 'The number of posts to return: 1???20, inclusive'
       - in: query
         name: notes_info
         description: Indicates whether to return notes information (specify true or
@@ -288,8 +288,8 @@ paths:
         description: Indicates whether the post uses markdown syntax
       - in: query
         name: reblog_key
-        description: The reblog key for the reblogged post  get the reblog key with
-          a /posts request
+        description: The reblog key for the reblogged post ??? get the reblog key
+          with a /posts request
       - in: query
         name: tags
         description: Comma-separated tags for this post

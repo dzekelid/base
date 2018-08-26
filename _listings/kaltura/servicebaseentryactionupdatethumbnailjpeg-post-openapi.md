@@ -2582,6 +2582,26 @@ paths:
       - Baseentry
       - Action
       - UpdateThumbnailJpeg
+  /service/baseentry/action/upload:
+    post:
+      summary: Post Service Baseentry Action Upload
+      description: Upload a file to Kaltura, that can be used to create an entry.
+      operationId: baseEntry.upload
+      x-api-path-slug: servicebaseentryactionupload-post
+      parameters:
+      - in: formData
+        name: fileData
+        description: The file data
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Service
+      - Baseentry
+      - Action
+      - Upload
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

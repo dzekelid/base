@@ -7,77 +7,18 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Base
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Xignite Global Futures List Base Futures
-  x-api-slug: xignite-global-futures
-  description: Returns a list of base future symbols
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures//ListBaseFutures
-  tags: List, Base, Futures
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/xignite/listbasefutures-get-openapi.md
-- name: Xignite Global Futures
-  x-api-slug: xignite-global-futures
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalfutures.xignite.com/xGlobalFutures.json/XigniteGlobalFutures
-  tags: Base
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/xignite/openapi.md
-- name: Xignite Global Metals Get Base Metal Price
-  x-api-slug: xignite-global-metals
-  description: Get base metal price.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals//GetBaseMetalPrice
-  tags: Market Data,Base, Metal, Price
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/xignite/getbasemetalprice-get-openapi.md
-- name: Xignite Global Metals
-  x-api-slug: xignite-global-metals
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals
-  tags: Base
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/xignite/openapi.md
-- name: Xignite Global Real Time Futures List Base Futures
-  x-api-slug: xignite-global-real-time-futures
-  description: Returns a list of base future symbols
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures//ListBaseFutures
-  tags: Market Data,List, Base, Futures
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/xignite/listbasefutures-get-openapi.md
-- name: Xignite Global Real Time Futures
-  x-api-slug: xignite-global-real-time-futures
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures
-  tags: Base
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/xignite/openapi.md
+apis: []
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
+- type: x-api-gallery
+  url: http://xibo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://xignite.stack.network
 - type: x-base
   url: http://globalmaster.xignite.com
 - type: x-case-studies
