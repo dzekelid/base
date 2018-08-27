@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Base
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/globalchange-gov/apis.md
 specificationVersion: "0.14"
 apis:
@@ -68,6 +68,33 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/globalchange-gov/personorcid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/globalchange-gov/personorcid-get-openapi.md
+- name: Global Change Information System API - Redirect to a person based on an ORCID.
+  x-api-slug: personorcid-get
+  description: Given an ORCID, if there is a match, redirect to the persons URI.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png
+  humanURL: http://globalchange.gov/
+  baseURL: https://data.globalchange.gov//
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/globalchange-gov/personorcid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/globalchange-gov/personorcid-get-openapi.md
+- name: Global Change Information System API - Redirect to a person based on a name
+  x-api-slug: personname-get
+  description: Given a name (case sensitive, concatenated by dashes), redirect if
+    there is a single match.  The first and last names can be in either order.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png
+  humanURL: http://globalchange.gov/
+  baseURL: https://data.globalchange.gov//
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/globalchange-gov/personname-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/globalchange-gov/personname-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://gitter.api.gallery.streamdata.io

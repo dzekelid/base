@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Tumblr
 x-complete: 1
@@ -331,4 +330,3 @@ paths:
       - Hostname
       - Post
       - Delete
----

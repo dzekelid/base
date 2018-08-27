@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: GlobalChange.gov
 x-complete: 1
@@ -56,4 +55,3 @@ paths:
       - Based
       - "On"
       - ORCID
----

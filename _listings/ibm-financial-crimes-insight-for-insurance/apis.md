@@ -10,8 +10,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Base
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/ibm-financial-crimes-insight-for-insurance/apis.md
 specificationVersion: "0.14"
 apis:
@@ -71,6 +71,34 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactwatchlistid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactwatchlistid-get-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Retrieve the contents
+    of a watchlist, based on its id
+  x-api-slug: ibmfciplatformfactwatchlistid-get
+  description: This method is used to retrieve the contents of a watchlist from the
+    database
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactwatchlistid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactwatchlistid-get-openapi.md
+- name: Financial Crimes Insight for Insurance public REST APIs - Retrieve a specific
+    physical object data from the database, based on its internal id
+  x-api-slug: ibmfciplatformfactphysical-objectid-get
+  description: This method is used to retrieve specific physical object data from
+    the database, based on its internal id
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png
+  humanURL: https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN
+  baseURL: https://fcihost.ibm.com:9443//
+  tags: Policing, Financial, Insurance, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactphysical-objectid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/ibm-financial-crimes-insight-for-insurance/ibmfciplatformfactphysical-objectid-get-openapi.md
 x-common:
 - type: x-openapi
   url: https://www.ibm.com/support/knowledgecenter/SSC2HF_3.0.0/api/fcii-insurance-v3.0.0.yaml?origin=swagger-ui

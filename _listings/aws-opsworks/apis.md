@@ -10,11 +10,143 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Base
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-opsworks/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS OpsWorks API - Describe Load Based Auto Scaling
+  x-api-slug: actiondescribeloadbasedautoscaling-get
+  description: Describes load-based auto scaling configurations for specified layers.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-opsworks/actiondescribeloadbasedautoscaling-get-openapi.md
+- name: AWS OpsWorks API - Describe Time Based Auto Scaling
+  x-api-slug: actiondescribetimebasedautoscaling-get
+  description: Describes time-based auto scaling configurations for specified instances.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-opsworks/actiondescribetimebasedautoscaling-get-openapi.md
+- name: AWS OpsWorks API - Set Load Based Auto Scaling
+  x-api-slug: actionsetloadbasedautoscaling-get
+  description: Specify the load-based auto scaling configuration for a specified layer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-opsworks/actionsetloadbasedautoscaling-get-openapi.md
+- name: AWS OpsWorks API - Set Time Based Auto Scaling
+  x-api-slug: actionsettimebasedautoscaling-get
+  description: Specify the time-based auto scaling configuration for a specified instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-opsworks/actionsettimebasedautoscaling-get-openapi.md
+- name: AWS OpsWorks API - Describe Load Based Auto Scaling
+  x-api-slug: actiondescribeloadbasedautoscaling-get
+  description: Describes load-based auto scaling configurations for specified layers.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-opsworks/actiondescribeloadbasedautoscaling-get-openapi.md
+- name: AWS OpsWorks API - Describe Time Based Auto Scaling
+  x-api-slug: actiondescribetimebasedautoscaling-get
+  description: Describes time-based auto scaling configurations for specified instances.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-opsworks/actiondescribetimebasedautoscaling-get-openapi.md
+- name: AWS OpsWorks API - Set Load Based Auto Scaling
+  x-api-slug: actionsetloadbasedautoscaling-get
+  description: Specify the load-based auto scaling configuration for a specified layer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-opsworks/actionsetloadbasedautoscaling-get-openapi.md
+- name: AWS OpsWorks API - Set Time Based Auto Scaling
+  x-api-slug: actionsettimebasedautoscaling-get
+  description: Specify the time-based auto scaling configuration for a specified instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-opsworks/actionsettimebasedautoscaling-get-openapi.md
+- name: AWS OpsWorks API - Describe Load Based Auto Scaling
+  x-api-slug: actiondescribeloadbasedautoscaling-get
+  description: Describes load-based auto scaling configurations for specified layers.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-opsworks/actiondescribeloadbasedautoscaling-get-openapi.md
+- name: AWS OpsWorks API - Describe Time Based Auto Scaling
+  x-api-slug: actiondescribetimebasedautoscaling-get
+  description: Describes time-based auto scaling configurations for specified instances.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-opsworks/actiondescribetimebasedautoscaling-get-openapi.md
+- name: AWS OpsWorks API - Set Load Based Auto Scaling
+  x-api-slug: actionsetloadbasedautoscaling-get
+  description: Specify the load-based auto scaling configuration for a specified layer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-opsworks/actionsetloadbasedautoscaling-get-openapi.md
+- name: AWS OpsWorks API - Set Time Based Auto Scaling
+  x-api-slug: actionsettimebasedautoscaling-get
+  description: Specify the time-based auto scaling configuration for a specified instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/base/master/_listings/aws-opsworks/actionsettimebasedautoscaling-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.marketplace.metering.service.api.gallery.streamdata.io
